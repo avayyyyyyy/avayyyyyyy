@@ -17,7 +17,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/abhi06122" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="abhi06122" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/shubhankit-jain-40bb9a252/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/shubhankit-jain-40bb9a252/" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/shubhlovesweb3/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/shubhankit-jain-40bb9a252/" height="30" width="40" /></a>
 <a href="https://instagram.com/avayyy.exe" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_damascus_sword" height="30" width="40" /></a>
 <a href="https://discord.gg/abhi.exe#9387" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="abhi.exe#9387" height="30" width="40" /></a>
 </p>
