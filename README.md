@@ -32,18 +32,6 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=avayyyyyyy&" alt="avayyyyyyy" /></p>
 
 
-<p>
-<a align= "center" href="https://github.com/ruchip16">
-  <img alt= "stats card" height="300px" width="350" src="https://github-readme-stats.vercel.app/api?username=Ruchip16&count_private=true&show_icons=true&theme=aura_dark&hide_rank=false" />
-<!--   <img align="right" height="270px" width="350" src="https://user-images.githubusercontent.com/72685035/147284506-c53eae58-0243-4026-a850-f091f0833326.gif" /> -->
-<!--   <img align="right" height="300px" width="350" src="https://github-readme-streak-stats.herokuapp.com/?user=Ruchip16&theme=omni" /> </a> -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ruchip16&show_icons=true&locale=en&layout=compact&theme=aura_dark" alt="ruchip16" /></a>
-</p>
-
-<br>
-
-</br>
-
 ### Just tryingg to be consistent here🐍 </h2>
 
 ![avayyy snake gif](https://github.com/avayyyyyyyy/avayyyyyyy/blob/output/github-contribution-grid-snake.gif)
