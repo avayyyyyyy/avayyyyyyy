@@ -2,7 +2,7 @@
 <h1 align="center">Hey 👋, I'm Shubhankit Jain</h1>
   <br>
   <a href="https://avayyyyyyy.github.io/shubhlovesweb3/" target="_blank">
-    <img src="https://avayyyyyyy.github.io/shubhlovesweb3/home.img" height="150" width="150"  style="border-radius: 50%;">
+    <img src="https://avayyyyyyy.github.io/shubhlovesweb3/assets/WhatsApp%20Image%202023-03-29%20at%2015.05.35.jpg" height="150" width="150"  style="border-radius: 50%;">
   </a>
 </div>
 
