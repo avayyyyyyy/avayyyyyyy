@@ -15,10 +15,10 @@
 - A passionate Self-taught Front-end developer.
 - Currently learning Web Development by Self.
 - In my free time, I enjoy watching anime and playing games to relax and unwind.
-- Have an idea? Let’s collaborate! Email me at <a href="mailto:hi@priyansh.app" target="_blank">hi@priyansh.app</a>.
-- More details on my <a href="https://oyepriyansh.pages.dev" target="_blank"> portfolio</a>.
+- Have an idea? Let’s collaborate! Email me at <a href="mailto:jabhi465@gmail.com" target="_blank">jabhi465@gmail.com</a>.
+- More details on my <a href="https://avayyyyyyy.github.io/shubhlovesweb3/" target="_blank"> portfolio</a>.
 
-<a href="#-about-me"><img src="https://komarev.com/ghpvc/?username=oyepriyansh&style=flat-square&color=000000" height="24px"> </a>
+<a href="#-about-me"><img src="https://komarev.com/ghpvc/?username=avayyyyyyy&style=flat-square&color=000000" height="24px"> </a>
 </div>
 
 <a href="#-skills"> 
@@ -42,15 +42,14 @@
 
 &nbsp; <a href="https://git-scm.com" target="_blank"> <img src="https://oyepriyansh.pages.dev/skills/git.svg" width="35"> </a> <a href="https://code.visualstudio.com" target="_blank"> <img src="https://oyepriyansh.pages.dev/skills/vscode.svg" width="35"> </a>
 
-
+<!--
 - Cloud hosting:
 
 &nbsp; <a href="https://pages.github.com" target="_blank"> <img src="https://oyepriyansh.pages.dev/skills/ghpages.png" width="35"> </a> <a href="https://pages.dev" target="_blank"> <img src="https://oyepriyansh.pages.dev/skills/cloudflare.svg" width="35"> </a> <a href="https://repl.it" target="_blank"> <img src="https://oyepriyansh.pages.dev/skills/replit.svg" width="35"> </a> <a href="https://vercel.app" target="_blank"> <img src="https://oyepriyansh.pages.dev/skills/vercel.svg" width="35"> </a> <a href="https://netlify.app" target="_blank"> <img src="https://oyepriyansh.pages.dev/skills/netlify.svg" width="35"> </a> <a href="https://heroku.com" target="_blank"> <img src="https://oyepriyansh.pages.dev/skills/heroku.svg" width="35"> </a>
-
+-->
 - Extras:
 
-&nbsp; &nbsp; <a href="https://mongodb.com" target="_blank"> <img src="https://oyepriyansh.pages.dev/skills/mongodb.svg" width="35"> </a>
- <a href="https://www.markdownguide.org/getting-started" target="_blank"> <img src="https://oyepriyansh.pages.dev/skills/md.svg" width="35"> </a> <a href="https://ubuntu.com" target="_blank"> <img src="https://oyepriyansh.pages.dev/skills/ubuntu.svg" width="35"> </a>  <a href="https://www.microsoft.com/en-in/windows" target="_blank"> <img src="https://oyepriyansh.pages.dev/skills/windows.png" width="35"> </a>
+&nbsp; &nbsp; <a href="https://ubuntu.com" target="_blank"> <img src="https://oyepriyansh.pages.dev/skills/ubuntu.svg" width="35"> </a>  <a href="https://www.microsoft.com/en-in/windows" target="_blank"> <img src="https://oyepriyansh.pages.dev/skills/windows.png" width="35"> </a>
 
 <a href="#-projects"> 
 <img src="https://oyepriyansh.pages.dev/838764339942785051.gif"> 
@@ -59,7 +58,7 @@
 ## <a href="#-projects"><img src="https://oyepriyansh.pages.dev/745716128281657445.gif" width="40"></a> Projects
 
 <details>
-  <summary> Image tear animation </summary>
+  <summary> NETFLIX GET STARTED PAGE CLONE </summary>
   <br>
 
 - <a href="https://oyepriyansh.github.io/image-tear-animation"><img src="https://oyepriyansh.pages.dev/5594269661517571.svg"></a>
