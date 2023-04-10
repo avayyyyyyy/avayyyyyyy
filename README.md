@@ -1,14 +1,15 @@
 Hi 👋 My name is Shubhankit jain !
 ==================================
 
-Frontend Developer
-------------------
+Frontend Developer and a Web3 Enthusiast.
+-----------------------------------------
 
 As an undergraduate student from India, I am enthusiastic about pushing myself beyond familiar boundaries and embracing novel opportunities and challenges.
 
-* 🌍  I'm based in India
+* 🌍  I'm based in Jaipur, India
 * 🖥️  See my portfolio at [My Portfolio](http://https://avayyyyyyy.github.io/shubhlovesweb3/)
 * ✉️  You can contact me at [jabhi465@gmail.com](mailto:jabhi465@gmail.com)
+* 🚀  I'm currently working on [My Personal Projects](http://github.com/avayyyyyyy)
 * 🧠  I'm learning Java Script
 * 🤝  I'm open to collaborating on Interesting Projects
 * ⚡  A passionate Self-taught Front-end developer.
