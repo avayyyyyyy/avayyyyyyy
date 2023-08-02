@@ -1,7 +1,7 @@
 Hi 👋 My name is Shubhankit jain !
 ==================================
 
-Frontend Developer and a Web3 Enthusiast.
+Full Stack & Web3 Enthusiast.
 -----------------------------------------
 
 As an undergraduate student from India, I am enthusiastic about pushing myself beyond familiar boundaries and embracing novel opportunities and challenges.
