@@ -1,14 +1,15 @@
 <br clear="both">
 
-<h2 align="left">Hi 👋! My name is Shubhankit and I'm a Full Stack Developer, from Jaipur, IN</h2>
+<div align="center">
+<img width="300" alt="desktop-oil-painting" src="https://i.pinimg.com/564x/42/7f/f7/427ff74b6e2c0623e270c6b700c9dbb0.jpg">
+</div>
+
+<h1 align="center">Hi I'm Shubhankit Jain ❤️</h1>
+<h3 align="center">Student developer from Jaipur, India 📍</h3>
 
 ###
 
 <br clear="both">
-
-<div align="center">
-  <img height="300" src="https://i.pinimg.com/564x/79/b5/74/79b574255e177f32d55f5b81e4c60d24.jpg"  />
-</div>
 
 ###
 
@@ -96,7 +97,8 @@
   </a>
   <a href="https://medium.com/@jabhi465" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/medium/default.svg" width="52" height="40" alt="medium logo"  />
-  </a>
+  </a>
+
 </div>
 
 ###
