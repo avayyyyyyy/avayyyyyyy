@@ -5,7 +5,7 @@
 </div>
 
 <h1 align="center">Hi I'm Shubhankit Jain ❤️</h1>
-<h3 align="center">Student developer from Jaipur, India 📍</h3>
+<h3 align="center">Rookie from Jaipur, India 📍</h3>
 
 ###
 
