@@ -1,11 +1,13 @@
 <br clear="both">
 
 <div align="center">
-<img width="300" alt="desktop-oil-painting" src="https://i.pinimg.com/564x/42/7f/f7/427ff74b6e2c0623e270c6b700c9dbb0.jpg">
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"/>
+<!-- <h1 align="center">NPM RUN BUILD</h1> -->
 </div>
 
 <h1 align="center">Hi I'm Shubhankit Jain ❤️</h1>
 <h3 align="center">Rookie from Jaipur, India 📍</h3>
+<h3 align="center">Converting concepts into robust deployments!</h3>
 
 ###
 
@@ -118,11 +120,11 @@
 
 ###
 
-<div align="center">
-  <a href="https://open.spotify.com/user/hx4yh5s4xge5qwua9nghvfpgk">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=hx4yh5s4xge5qwua9nghvfpgk&count=5&unique=false" alt="Spotify recently played"  />
-  </a>
-</div>
+<!-- <div align="center"> -->
+<!--   <a href="https://open.spotify.com/user/hx4yh5s4xge5qwua9nghvfpgk"> -->
+<!--     <img src="https://spotify-recently-played-readme.vercel.app/api?user=hx4yh5s4xge5qwua9nghvfpgk&count=5&unique=false" alt="Spotify recently played"  /> -->
+<!--   </a> -->
+<!-- </div> -->
 
 ###
 
