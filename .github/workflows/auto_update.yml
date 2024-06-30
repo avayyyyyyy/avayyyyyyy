@@ -23,4 +23,4 @@ jobs:
       - name: Run update script
         run: |
           chmod +x update_readme.sh
-          ./update_readme.sh
+          /update_readme.sh
