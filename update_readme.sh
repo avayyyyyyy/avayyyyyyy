@@ -5,7 +5,7 @@ current_time=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
 update_message="Updated $current_time with magic 🪄"
 
 # Check if the last line already contains the update message for the current time period
-if tail -n 1 README.md | grep -qF "$current_time"; then
+if tail -n 1 README.md | grep -qF "$current_time 🪄"; then
     echo "README.md already updated for the current time period."
 else
     # Add the update message to the end of the README.md file
