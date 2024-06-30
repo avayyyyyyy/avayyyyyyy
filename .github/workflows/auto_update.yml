@@ -38,7 +38,7 @@ jobs:
           git add .
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Automated update at $(date -u '+%Y-%m-%d %H:%M:%S') UTC"
-            git push
+            git push -f origin main
           else
             echo "No changes to commit"
           fi
