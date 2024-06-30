@@ -2,7 +2,7 @@
 
 # Get the current time in UTC and format it
 current_time=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
-update_message="Updated $current_time UTC with magic 🪄"
+update_message="*Updated $current_time UTC with magic 🪄*"
 
 # Remove the last line if it contains an old update message
 # Check if the last line is an old update message
