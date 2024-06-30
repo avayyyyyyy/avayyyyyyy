@@ -25,12 +25,14 @@ jobs:
           ls -a
           chmod +x update_readme.sh
           ./update_readme.sh
+          echo "Update script executed"
 
       - name: Authenticate with GitHub
         env:
           ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
         run: |
           git remote set-url origin https://avayyyyyyy:${{ secrets.ACTIONS_PAT }}@github.com/avayyyyyyy/avayyyyyyy.git
+          echo "GitHub authentication configured"
 
       - name: Check for changes and push
         run: |
@@ -40,6 +42,5 @@ jobs:
             git push
           else
             echo "No changes to commit"
-          fi
         env:
           ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
