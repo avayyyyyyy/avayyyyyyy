@@ -22,7 +22,6 @@ jobs:
 
       - name: Run update script
         run: |
-          ls -a
           chmod +x update_readme.sh
           ./update_readme.sh
           echo "Update script executed"
@@ -42,5 +41,6 @@ jobs:
             git push
           else
             echo "No changes to commit"
+          fi
         env:
           ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
