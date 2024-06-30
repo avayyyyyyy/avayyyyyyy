@@ -4,21 +4,22 @@
 current_time=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
 update_message="Updated $current_time UTC with magic 🪄"
 
-# Check if the last line of the README.md file is the same as the new update message
+# Remove the last line if it contains an old update message
+# Check if the last line is an old update message
 last_line=$(tail -n 1 README.md)
-echo $last_line
-if [ "$last_line" != "Updated $current_time UTC UTC with magic 🪄" ]; then
-    # Add the update message to the end of the README.md file
-    echo "$update_message" >> README.md
-
-    # Stage the changes
-    git add README.md
-
-    # Commit the changes
-    git commit -m "Automated update at $current_time UTC"
-
-    # Push the changes
-    git push origin main
-else
-    echo "README.md already updated for the current time period."
+if [[ "$last_line" == Updated\ *\ UTC\ with\ magic\ 🪄 ]]; then
+    # Remove the last line from README.md
+    sed -i '$ d' README.md
 fi
+
+# Add the new update message to the end of the README.md file
+echo "$update_message" >> README.md
+
+# Stage the changes
+git add README.md
+
+# Commit the changes
+git commit -m "Automated update at $current_time UTC"
+
+# Push the changes
+git push origin main
