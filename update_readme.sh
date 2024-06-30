@@ -8,7 +8,7 @@ update_message="*Updated on $current_time with magic 🪄*"
 # Check if the last line is an old update message
 last_line=$(tail -n 1 README.md)
 echo "Pehle Last Line : $last_line"
-if [[ "$last_line" == Updated\ on\ *\ UTC\ with\ magic\ 🪄 ]]; then
+if [[ "$last_line" == *Updated\ on\ *\ UTC\ with\ magic\ 🪄* ]]; then
 
     # Remove the last line from README.md
     sed -i '$ d' README.md
