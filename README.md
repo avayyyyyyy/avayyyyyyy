@@ -60,5 +60,3 @@
 </div>
 
 ###
-*Updated 2024-06-30 20:20:03 UTC UTC with magic 🪄*
-*Updated on 2024-06-30 20:20:47 UTC with magic 🪄*
