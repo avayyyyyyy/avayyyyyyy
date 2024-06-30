@@ -22,6 +22,7 @@ jobs:
 
       - name: Run update script
         run: |
+          ls -a
           chmod +x update_readme.sh
           ./update_readme.sh
 
@@ -31,10 +32,14 @@ jobs:
         run: |
           git remote set-url origin https://avayyyyyyy:${{ secrets.ACTIONS_PAT }}@github.com/avayyyyyyy/avayyyyyyy.git
 
-      - name: Push changes
+      - name: Check for changes and push
         run: |
           git add .
-          git commit -m "Automated update at $(date -u '+%Y-%m-%d %H:%M:%S') UTC"
-          git push
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Automated update at $(date -u '+%Y-%m-%d %H:%M:%S') UTC"
+            git push
+          else
+            echo "No changes to commit"
+          fi
         env:
           ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
