@@ -1,0 +1,26 @@
+name: Auto Update README
+
+on:
+  schedule:
+    - cron: "0 */3 * * *" # Runs every 3 hours
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Git
+        run: |
+          git config --global user.name 'avayyyyyyy'
+          git config --global user.email 'jabhi465@gmail.com'
+
+      - name: Run update script
+        run: |
+          chmod +x update_readme.sh
+          ./update_readme.sh
