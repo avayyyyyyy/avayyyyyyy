@@ -2,7 +2,7 @@ name: Auto Update README
 
 on:
   schedule:
-    - cron: "0 */3 * * *"  # Runs every 3 hours
+    - cron: "0 */3 * * *" # Runs every 3 hours
   push:
     branches:
       - main
@@ -19,8 +19,8 @@ jobs:
         run: |
           git config --global user.name 'your-username'
           git config --global user.email 'your-email@example.com'
-      
+
       - name: Run update script
         run: |
-          chmod +x ../../update_readme.sh
-          ../../update_readme.sh
+          chmod +x /update_readme.sh
+          /update_readme.sh
