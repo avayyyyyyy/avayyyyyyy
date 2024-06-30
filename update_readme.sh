@@ -23,7 +23,7 @@ echo "$update_message" >> README.md
 git add README.md
 
 # Commit the changes
-git commit -m "Automated update at $current_time UTC"
+git commit -m "Automated update at $current_time"
 
 # Push the changes
 git push origin main
