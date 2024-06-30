@@ -2,7 +2,7 @@ name: Auto Update README
 
 on:
   schedule:
-    - cron: "0 */1 * * *" # Runs every 1 hours
+    - cron: "0 */3 * * *" # Runs every 3 hours
   push:
     branches:
       - main
@@ -13,7 +13,9 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # Ensure you are using the correct token for authentication
 
       - name: Set up Git
         run: |
@@ -24,22 +26,12 @@ jobs:
         run: |
           chmod +x update_readme.sh
           ./update_readme.sh
-        env:
-          ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
-
-      - name: Authenticate with GitHub
-        env:
-          ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
-        run: |
-          git remote set-url origin https://avayyyyyyy:${{ secrets.ACTIONS_PAT }}@github.com/avayyyyyyy/avayyyyyyy.git
 
       - name: Check for changes and push
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Automated update at $(date -u '+%Y-%m-%d %H:%M:%S') UTC"
-            git push
+            git push origin main
           else
-            echo "No changes to commit"
+            echo "No new changes to commit."
           fi
-        env:
-          ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
