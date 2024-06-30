@@ -7,7 +7,7 @@ update_message="Updated $current_time UTC with magic 🪄"
 # Check if the last line of the README.md file is the same as the new update message
 last_line=$(tail -n 1 README.md)
 echo $last_line
-if [ "$last_line" != "$update_message" ]; then
+if [ "$last_line" != "Updated $current_time UTC UTC with magic 🪄" ]; then
     # Add the update message to the end of the README.md file
     echo "$update_message" >> README.md
 
