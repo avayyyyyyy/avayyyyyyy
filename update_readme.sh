@@ -12,7 +12,7 @@ if [[ "$last_line" == Updated\ *\ UTC\ with\ magic\ 🪄 ]]; then
     # Remove the last line from README.md
     sed -i '$ d' README.md
     last_line2=$(tail -n 1 README.md)
-    echo "Pehle Last Line : $last_line2"
+    echo "badme Last Line : $last_line2"
 fi
 
 # Add the new update message to the end of the README.md file
