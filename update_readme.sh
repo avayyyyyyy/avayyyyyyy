@@ -4,8 +4,9 @@
 current_time=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
 update_message="Updated $current_time UTC with magic 🪄"
 
-# Check if the update message for the current time period is already in the file
-if ! grep -qF "$current_time UTC" README.md; then
+# Check if the last line of the README.md file is the same as the new update message
+last_line=$(tail -n 1 README.md)
+if [ "$last_line" != "$update_message" ]; then
     # Add the update message to the end of the README.md file
     echo "$update_message" >> README.md
 
