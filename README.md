@@ -8,9 +8,9 @@ I'm a Full-Stack Developer with a passion for creating innovative and efficient 
 
 ## 🛠️ Technologies & Tools
 
-- React, Next.js, Tailwind CSS
-- Node.js, TypeScript, Prisma
-- PostgreSQL, Pinecone
+- React.js, Next.js, TypeScript
+- Node.js, Express.js, Prisma
+- PostgreSQL, Pinecone, MongoDB
 
 ## 🌱 Current Learning Goals
 
