@@ -4,7 +4,7 @@
 
 I'm a Full-Stack Developer with a passion for creating innovative and efficient solutions. I always aim for the best code quality and seamless user experiences. I love learning new technologies and applying them to my projects. Apart from coding, I enjoy traveling, exploring new music, and driving to new places.
 
-🧃 Personal CLI `npx shubhlovecodes`
+🧃 Personal CLI - `npx shubhlovecodes`
 
 ## 🛠️ Technologies & Tools
 
