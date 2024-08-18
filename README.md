@@ -7,7 +7,7 @@ I'm a Full-Stack Developer with a passion for creating innovative and efficient 
 🧃 Personal CLI:
 
 ```bash
-npx shubhlovescode
+npx shubhcodes
 ```
 
 ## 🛠️ Technologies & Tools
