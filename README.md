@@ -15,6 +15,7 @@ npx shubhcodes
 - React.js, Next.js, TypeScript
 - Node.js, Express.js, Prisma
 - PostgreSQL, Pinecone, MongoDB
+- Redis, Kafka
 
 ## 🌱 Current Learning Goals
 
