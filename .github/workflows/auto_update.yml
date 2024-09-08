@@ -2,7 +2,7 @@ name: Auto Update README
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # Runs every 3 hours
+    - cron: "0 */6 * * *" 
   push:
     branches:
       - main
@@ -15,12 +15,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # Ensure you are using the correct token for authentication
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Git
         run: |
           git config --global user.name 'avayyyyyyy'
           git config --global user.email 'jabhi465@gmail.com'
+
+      - name: Add random delay and random decision
+        run: |
+          RANDOM_DELAY=$(( RANDOM % 3600 ))
+          echo "Sleeping for $RANDOM_DELAY seconds..."
+          sleep $RANDOM_DELAY
+          RANDOM_RUN=$(( RANDOM % 2 ))
+          if [ "$RANDOM_RUN" -eq 0 ]; then
+            echo "Skipping the run due to randomness."
+            exit 0
+          fi
+          echo "Proceeding with the update..."
 
       - name: Run update script
         run: |
