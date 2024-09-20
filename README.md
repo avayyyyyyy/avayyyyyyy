@@ -22,7 +22,7 @@ npx shubhcodes
 - Enhancing my skills in full-stack development
 - Diving deeper into DevOps practices and tools
 - Exploring new programming paradigms and languages
-- Mastering Web3
+- Learning AI
 - Solving more data structures and algorithms problems and learning.
 
 ## 📈 GitHub Stats
