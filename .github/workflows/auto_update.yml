@@ -1,49 +1,49 @@
-name: Auto Update README
+# name: Auto Update README
 
-on:
-  schedule:
-    - cron: "0 */6 * * *" 
-  push:
-    branches:
-      - main
+# on:
+#   schedule:
+#     - cron: "0 */6 * * *" 
+#   push:
+#     branches:
+#       - main
 
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
+# jobs:
+#   update-readme:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v3
+#         with:
+#           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set up Git
-        run: |
-          git config --global user.name 'avayyyyyyy'
-          git config --global user.email 'jabhi465@gmail.com'
+#       - name: Set up Git
+#         run: |
+#           git config --global user.name 'avayyyyyyy'
+#           git config --global user.email 'jabhi465@gmail.com'
 
-      - name: Add random delay and random decision
-        run: |
-          RANDOM_DELAY=$(( RANDOM % 3600 ))
-          echo "Sleeping for $RANDOM_DELAY seconds..."
-          sleep $RANDOM_DELAY
-          RANDOM_RUN=$(( RANDOM % 2 ))
-          if [ "$RANDOM_RUN" -eq 0 ]; then
-            echo "Skipping the run due to randomness."
-            exit 0
-          fi
-          echo "Proceeding with the update..."
+#       - name: Add random delay and random decision
+#         run: |
+#           RANDOM_DELAY=$(( RANDOM % 3600 ))
+#           echo "Sleeping for $RANDOM_DELAY seconds..."
+#           sleep $RANDOM_DELAY
+#           RANDOM_RUN=$(( RANDOM % 2 ))
+#           if [ "$RANDOM_RUN" -eq 0 ]; then
+#             echo "Skipping the run due to randomness."
+#             exit 0
+#           fi
+#           echo "Proceeding with the update..."
 
-      - name: Run update script
-        run: |
-          chmod +x update_readme.sh
-          ./update_readme.sh
+#       - name: Run update script
+#         run: |
+#           chmod +x update_readme.sh
+#           ./update_readme.sh
 
-      - name: Check for changes and push
-        run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Automated update at $(date -u '+%Y-%m-%d %H:%M:%S') UTC"
-            git push origin main
-          else
-            echo "No new changes to commit."
-          fi
+#       - name: Check for changes and push
+#         run: |
+#           if [ -n "$(git status --porcelain)" ]; then
+#             git commit -m "Automated update at $(date -u '+%Y-%m-%d %H:%M:%S') UTC"
+#             git push origin main
+#           else
+#             echo "No new changes to commit."
+#           fi
